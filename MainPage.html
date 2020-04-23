@@ -7,16 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link to CSS owner-->
     <link rel="stylesheet" type="text/css" href="Mainpage.css">
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="Mainpage_responsive.css">
+=======
+	
+>>>>>>> df005006e48d26e374c503d0b98923c5f2c81772
     <!-- font from website -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
   </head>
   <body>
     <header>
       <div class="container">
         <div class="header-left">
-          <img class="logo" src="./Assets/Logo.png">
+          <a href="#top">
+		  <img class="logo" src="./Assets/Logo.png">
         </div>
         <!-- Fa-fa icon for responsive -->
         <div class="dropdown">
@@ -31,25 +37,25 @@
         </div>
 
         <div class="header-right">
-          <a href="#">ABOUT</a>
-          <a href="#">ACHIEVEMENT</a>
-          <a href="#">CONTACT</a>
+          <a href="#IDAbout_Us">ABOUT</a>
+          <a href="#IDMain_Page">ACHIEVEMENT</a>
+          <a href="#IDcontact_Us">CONTACT</a>
         </div>
       </div>
     </header>
     
-    <div class="tabMainpage">
+    <div class="tabMainpage" id="IDMain_Page">
       <div class="container">
         <h1>Welcome, For The Good Future With Us.</h1>
         <h2>I- FIFTEEN</h2>
-        <br><br>
-        <a href="#tabAbout" class="btn btn-circle js-scroll-trigger">
+        <br><br>		
+        <a href="#IDfooter" class="btn btn-circle js-scroll-trigger">
           <i class="fa fa-angle-double-down animated fa-4x" id="slidedown"></i>
         </a>
       </div>
     </div>
     
-    <div class="tabAbout">
+    <div class="tabAbout" id="IDAbout_Us">
       <div class="container">
         <div class="heading">
           <h2>About US</h2>
@@ -57,7 +63,7 @@
         
       </div>
     </div>
-    <div class="tabContact">
+    <div class="tabContact" id="IDcontact_Us">
       <div class="container">
         <div class="heading">
           <h2>Contact Us</h2>
@@ -66,8 +72,10 @@
       </div>
     </div>
     <!-- Footer -->
-    <footer class="footer">
-      Copyright &copy; I-FIFTEEN 2020
+    <footer class="footer" id="IDfooter">
+      <div class="w3-panel w3-win8-blue">
+	  Copyright &copy; I-FIFTEEN 2020
+	  </div>
     </footer>
   </body>
 </html>
