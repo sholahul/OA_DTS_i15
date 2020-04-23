@@ -106,14 +106,23 @@ header {
   height: 500px;  
   padding-top : 120px;
   padding-bottom: 50px;
+  color:white;
+  font-weight: bold;
 }
 
 
+
 /*FOOTER*/
-footer {
-  background: white; 
+footer h5{
   text-align: center;
-  padding: 10px;
-  color : black;
+  color : white;
   /*you could also get rid of the .wrapper justify-content and use margin-top: auto*/
+}
+footer {
+background-size: 100% 100%;
+font-size: 14px;
+text-align:center;
+}
+.w3-panel w3-win8-blue{
+	height: 120px;
 }
