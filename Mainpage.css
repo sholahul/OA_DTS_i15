@@ -12,6 +12,7 @@ body
   position: relative;
 }
 
+/*Header*/
 .container {
   max-width: 1170px;
   padding: 0 15px;
@@ -56,6 +57,17 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.menu-icon,{
+  display: none;
+  color: transparent;
+  float: right;
+}
+
+.dropbtn, .dropdown{
+  display: none;
+}
+
+/*TAB MAINPAGE*/
 .tabMainpage {
   background-image: url(./Assets/BackgroundMainpage.jpg);
   background-size: cover;
