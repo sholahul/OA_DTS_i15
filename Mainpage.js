@@ -5,7 +5,7 @@ window.onscroll = function() {
 
 function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("heading").style.background = "rgb(172,185,202)";
+        document.getElementById("heading").style.background = "rgb(4,54,149)";
         document.getElementById("heading").style.paddingTop = "5px";
 
     } else {

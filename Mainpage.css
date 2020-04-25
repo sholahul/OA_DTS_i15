@@ -79,6 +79,7 @@ header {
   padding-top : 120px;
   padding-bottom: 50px;
   height: 500px;  
+  width: 100%;
 }
 
 .tabMainpage h1 {
@@ -120,10 +121,60 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
-  height: 500px;  
-  padding-top : 120px;
-  padding-bottom: 50px;  
+  height: 700px;  
+  padding-top : 70px;
+  padding-bottom: 80px;  
 }
+
+.Title{
+  color: white;
+  text-decoration: underline;
+}
+
+.row1{
+  color: white;
+}
+
+.row2{
+  color: white;
+}
+
+
+.col1 {
+  float: left;
+  width: 33.3%;
+}
+
+.col2{
+  float: left;
+  width: 50%; 
+}
+
+.Icons {
+  position: relative;
+}
+
+.Icons img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.Icons h3 {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
 
 /*TAB CONTACT*/
 .tabContact {
@@ -132,22 +183,79 @@ header {
   background-size: 100% 100%;
   text-align: center;
   height: 500px;  
-  padding-top : 120px;
+  padding-top : 70px;
   padding-bottom: 50px;
   color:white;
   font-weight: bold;
 }
 
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  
+}
 
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: black;
+  float: left;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*FOOTER*/
 footer {
   background-size: 100% 100%;
   font-size: 14px;
   text-align:center;
-  background-color: rgb(172,185,202);
+  background-color: rgb(4,54,149);
   color : white;
   height: 25px;
   padding: 15px;
   font-weight: bold;
 }
+

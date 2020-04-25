@@ -16,7 +16,7 @@
 
 <body>
     <header id="heading">
-        <div class="container" >
+        <div class="container">
             <div class="header-left">
                 <a href="#top">
                     <img class="logo" src="./Assets/Logo.png">
@@ -37,7 +37,6 @@
             </div>
         </div>
     </header>
-
     <div class="tabMainpage" id="IDMain_Page">
         <div class="container">
             <h1>Welcome, For The Good Future With Us.</h1>
@@ -50,15 +49,86 @@
     </div>
     <div class="tabAbout" id="IDAbout_Us">
         <div class="container">
-            <div class="heading">
+            <div class="Title">
                 <h2>About US</h2>
+            </div>
+            <div class="row1">
+                <div class="col1">
+                    <div class="Icons">
+                        <img src="Assets/Foto/SholahulFajri.jpg">
+                        <h3>Sholahul Fajri</h3>
+                    </div>
+                    <h4 class="txt-contents">Full-Stack Developer</h4>
+                </div>
+                <div class="col1">
+                    <div class="Icons">
+                        <img src="Assets/Foto/b.png">
+                        <h3>B</h3>
+                    </div>
+                    <h4 class="txt-contents">Database Analis</h4>
+                </div>
+                <div class="col1">
+                    <div class="Icons">
+                        <img src="Assets/Foto/c.png">
+                        <h3>C</h3>
+                    </div>
+                    <h4 class="txt-contents">Front-End Developers</h4>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="row2">
+                <div class="col2">
+                    <div class="Icons">
+                        <img src="Assets/Foto/d.png">
+                        <h3>D</h3>
+                    </div>
+                    <h4 class="txt-contents">Database Engineers</h4>
+                </div>
+                <div class="col2">
+                    <div class="Icons">
+                        <img src="Assets/Foto/e.jpg">
+                        <h3>E</h3>
+                    </div>
+                    <h4 class="txt-contents">Quality Assurance</h4>
+                </div>
             </div>
         </div>
     </div>
     <div class="tabContact" id="IDcontact_Us">
         <div class="container">
-            <div class="heading">
+            <div class="Title">
                 <h2>Contact Us</h2>
+            </div>
+            <div class="container-form">
+                <form action="">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -66,8 +136,7 @@
     <footer>
         Copyright &copy; I-FIFTEEN 2020
     </footer>
-
-    <script type="text/javascript" src ="Mainpage.js"></script>
+    <script type="text/javascript" src="Mainpage.js"></script>
 </body>
 
 </html>

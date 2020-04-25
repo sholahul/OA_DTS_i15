@@ -5,6 +5,14 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .tabMainpage h1 {
+    font-size: 38px;
+  }
+
+  .tabMainpage h2 {
+    font-size: 40px;
+  }
+
   .header-right, .dropbtn {
     display: none;
     height: 70px;
