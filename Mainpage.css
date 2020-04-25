@@ -2,8 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body
-{
+body{
   margin: 0;
   padding: 0;
   font-family: 'ubuntu', sans-serif;
@@ -60,7 +59,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon,{
+.menu-icon{
   display: none;
   color: transparent;
   float: right;
@@ -216,12 +215,13 @@ label {
 
 input[type=submit] {
   background-color: #4CAF50;
-  color: black;
-  padding: 12px 20px;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  margin-top: 20px;
+  
 }
 
 input[type=submit]:hover {
