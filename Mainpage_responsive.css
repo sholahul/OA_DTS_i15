@@ -48,7 +48,7 @@
     background-color: #f9f9f9;
     width: 100%;
     left: 0;
-    top : 80px;
+    top : 70px;
     z-index: 1;
   }
 
@@ -78,7 +78,7 @@
   .Icons h3 {
     position: absolute;
     top: 100%;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
   }
 

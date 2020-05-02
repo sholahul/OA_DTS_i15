@@ -181,7 +181,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
-  height: 500px;  
+  height: 450px;  
   padding-top : 70px;
   padding-bottom: 50px;
   color:white;
@@ -238,6 +238,20 @@ input[type=submit]:hover {
   float: left;
   width: 75%;
   margin-top: 6px;
+}
+
+.submit{
+  padding: 30px 30px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px darkblue;
+}
+
+
+.submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 /* Clear floats after the columns */
